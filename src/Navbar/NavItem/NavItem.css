@@ -1,0 +1,18 @@
+.nav-item {
+	text-decoration: none;
+	margin: 0px 20px;
+}
+
+.nav-item a {
+	text-decoration: none;
+}
+
+.nav-item a p {
+	transition: 0.1s all ease-in-out;
+	color: var(--navbar-font-color);
+}
+
+.nav-item a p:hover {
+	color: white;
+	transform: scale(1.04);
+}

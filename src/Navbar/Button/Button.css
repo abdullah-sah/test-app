@@ -1,0 +1,15 @@
+.button {
+	width: 109px;
+	height: 48px;
+	margin: 0px 10px;
+	border-radius: 32px;
+	border: 0px solid transparent;
+	padding: 8px;
+	cursor: pointer;
+	transition: 0.1s all ease-in-out;
+	font-size: var(--navbar-font-size);
+}
+
+.button:hover {
+	transform: scale(1.04);
+}

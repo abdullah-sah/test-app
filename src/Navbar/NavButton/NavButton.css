@@ -1,0 +1,6 @@
+.nav-button img {
+	width: px;
+	height: 32px;
+	background: white; /* Because arrows in img are transparent, a white bg is needed */
+	border-radius: 100%;
+}
