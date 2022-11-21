@@ -1,6 +1,7 @@
 :root {
 	--navbar-font-size: 16px;
 	--navbar-font-color: #A7A7A7;
+	--side-pane-width: 300px;
 }
 
 @font-face {
@@ -15,13 +16,14 @@
 		url("../assets/fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
-.navigation-container {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-}
-
 * {
 	font-family: "Montserrat Regular";
 	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.App {
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 100vh;
 }
