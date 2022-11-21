@@ -1,0 +1,27 @@
+.side-pane-item {
+	transition: 0.3s all ease-in-out;
+	opacity: 0.7;
+}
+
+.side-pane-item:hover {
+	opacity: 1;
+}
+
+.side-pane-link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 13px;
+	margin: 6px 0 10px 22px;
+	font-family: "Montserrat Bold";
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+}
+
+.side-pane-item img {
+	width: 26px;
+	height: 26px;
+	margin-right: 12px;
+}
