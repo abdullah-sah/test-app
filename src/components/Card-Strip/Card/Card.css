@@ -42,13 +42,16 @@
 .play-button-container {
 	display: flex;
 	flex-direction: row-reverse;
-	margin-top: -48px;
+	position: relative;
 	padding: 0;
 	width: 100%;
 	transition: 0.3s all ease;
 }
 
 .card-play-button {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
 	width: 48px;
 	height: 48px;
 	border-radius: 48px;
