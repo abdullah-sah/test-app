@@ -61,3 +61,16 @@
 	opacity: 0;
 	pointer-events: none;
 }
+
+.fadeUpInAnimation {
+	animation: fadeUpIn 0.3s;
+}
+
+@keyframes fadeUpIn {
+	0% {
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}

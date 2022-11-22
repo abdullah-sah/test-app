@@ -8,7 +8,7 @@ const Card = ({ imgSrc, title, content, link }) => {
 	);
 
 	const handleMouseEnter = () => {
-		setPlayButtonClasses("play-button-container");
+		setPlayButtonClasses("play-button-container fadeUpInAnimation");
 	};
 
 	const handleMouseLeave = () => {
