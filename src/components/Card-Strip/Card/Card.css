@@ -1,0 +1,55 @@
+.card-container {
+	display: flex;
+	flex-direction: column;
+	width: var(--card-width);
+	height: var(--card-height);
+	margin-left: 30px;
+	background: #181818;
+	padding: 12px 10px;
+	border-radius: 5px;
+	transition: 0.3s all ease;
+}
+
+.card-container:hover {
+	background: #282828;
+}
+
+.card-image {
+	width: 97%;
+	align-self: center;
+	border-radius: 5px;
+}
+
+.card-title {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.card-content {
+	color: #b3b3b3;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.play-button-container {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: -48px;
+	padding: 0;
+	width: 100%;
+	transition: 0.3s all ease;
+}
+
+.card-play-button {
+	width: 48px;
+	height: 48px;
+	border-radius: 48px;
+}
+
+.hidden {
+	opacity: 0;
+	pointer-events: none;
+}

@@ -1,5 +1,5 @@
 .navbar {
-	width: 100vw;
+	width: calc(100vw - var(--side-pane-width));
 	height: 64px;
 	background-color: rgba(0, 0, 0, 0.92);
 	display: flex;
