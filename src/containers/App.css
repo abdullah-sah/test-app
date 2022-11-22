@@ -2,6 +2,8 @@
 	--navbar-font-size: 16px;
 	--navbar-font-color: #A7A7A7;
 	--side-pane-width: 300px;
+	--card-width: 218px;
+	--card-height: 308px;
 }
 
 @font-face {
@@ -26,4 +28,9 @@
 	flex-direction: row;
 	width: 100vw;
 	height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
